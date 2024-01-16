@@ -149,6 +149,7 @@
     flex-shrink: 0;
     border: none;
     padding: 0 10px;
+    outline: none;
 }
 .banner_input_box {
     position: relative;
@@ -583,7 +584,6 @@
     
     .input_fild_banner input {
     font-size: 12px;
-    /* padding: 0 10px; */
     width: 94%;
     }
 
@@ -622,15 +622,14 @@
     .Deals_Discounts_box img {
         height: 600px;
     }
-    .Deals_Discounts_box_card1 {
- 
-right: 18%;
- 
-top: 23%;
- 
-padding: 25px;
- 
-}
-
+    .Deals_Discounts_box_card1{
+        right: 18%;
+        top: 23%;
+        padding: 25px; 
+    }
+    .Deals_Discounts_box_card2{
+    left: 18%;
+    top: 15%;
+    }
 }
 /* mobile responsive end */
