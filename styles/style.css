@@ -18,7 +18,7 @@
     font-size: 16px;
     border-radius: 8px;
     background: #FF5400;
-    width: 174px;
+    width: 35%;
     height: 52px;
     flex-shrink: 0;
     border: none;
@@ -33,6 +33,11 @@
     width: 81.25%;
     max-width: 1170px;
     margin: 50px auto;
+}
+.section_devider{
+    width: 35%;
+    border: 1px solid #FF5400;
+    margin: auto;
 }
 /* shared style end */
 
@@ -110,6 +115,7 @@
     justify-content: center;
     align-items: center;
     gap: 28px;
+    padding: 25px 0;
 }
 
 .banner h1 {
@@ -130,6 +136,7 @@
     padding: 16px;
     align-items: flex-start;
     gap: 10px;
+    width: 80%;
 }
 .input_fild_banner input {
     border-radius: 8px;
@@ -145,7 +152,7 @@
 }
 .banner_input_box {
     position: relative;
-    width: 180px;
+    width: 100%;
 }
 .banner_input_box i.fa.fa-angle-down {
     position: absolute;
@@ -154,7 +161,9 @@
     flex-shrink: 0;
     color: rgba(19, 19, 24, 0.50);
 }
-
+.banner_btn{
+    width: 90%;
+}
 .input_fild_banner button i{
     margin-right: 10px ;
 }
@@ -440,10 +449,45 @@
 }
 /* Newsletter section end */
 
-.section_devider{
-    width: 35%;
-    border: 1px solid #FF5400;
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 70px 0;
+    margin-top: 50px;
+}
+
+.footer_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_hr{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    width: 70%;
     margin: auto;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_p{
+    text-align: center;
+}
+.footer_logo h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer_logo span{
+    color: #FF5400;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 
@@ -465,26 +509,30 @@
    .banner h1, .Destination_h1, .Why_Choose_Us_Section_heading, .routed_btn h1{
     font-size: 30px;
    }
+   .banner_input_box i.fa.fa-angle-down{
+      right: 10px;  
+   }
 
-   .for_responsive {
+   .for_responsive, .footer_p{
     font-size: 17px;
     width: 83%;
     }
     
     .input_fild_banner input {
     font-size: 12px;
-    padding: 0 10px;
-    width: 85%;
+    /* padding: 0 10px; */
+    width: 94%;
     }
 
     .Popular_Tours_right {
         width: 100%;
     }
 
-    .Popular_Tours_right img {
+    .Popular_Tours_right img, .banner_btn {
         width: 100%;
     }
 
+   
     .Choose-Destination .Destination_p, .Why_Choose_Us_Section_p{
         font-size: 19px;
     }
