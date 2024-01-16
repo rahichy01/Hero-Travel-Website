@@ -323,6 +323,69 @@
 }
 /* Why Choose Us Section end */
 
+
+/* Deals_Discounts section start */
+.Deals_Discounts h1,p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Deals_Discounts_box{
+    width: 100%;
+    position: relative;
+}
+
+.Deals_Discounts_box img{
+    width: 100%;
+}
+
+.Deals_Discounts_box_card1{
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    right: 5%;
+    top: 9%;
+    padding: 50px;
+}
+.Deals_Discounts_box_shediul span{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.Deals_Discounts_box_shediul span i{
+    color: #FF5400;
+    margin-right: 6px;
+}
+.Deals_Discounts_box_card1 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.Deals_Discounts_box_card1_p1{
+    text-align: left;
+}
+.Deals_Discounts_box_card1_p2{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.Deals_Discounts_box_card2 {
+    left: 5%;
+    top: 0%;
+    margin: 50px 0;
+}
+
+
+/* Deals_Discounts section end */
+
+
 /* perfect place section start */
 
 .Perfect_Place_Section{
@@ -556,6 +619,18 @@
     .Perfect_Place_Section_right h1{
         font-size: 24px;
     }
+    .Deals_Discounts_box img {
+        height: 600px;
+    }
+    .Deals_Discounts_box_card1 {
+ 
+right: 18%;
+ 
+top: 23%;
+ 
+padding: 25px;
+ 
+}
 
 }
 /* mobile responsive end */
