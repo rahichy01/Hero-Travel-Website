@@ -150,7 +150,40 @@
     margin-right: 10px ;
 }
 
+/* Popular tours section start */
 
+.Popular_Tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.Popular_Tours_left h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.Popular_Tours_left .tours_list ul {
+    padding: 10px 35px;
+}
+
+.Popular_Tours_left .tours_list ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 13px 0;
+}
+.for_margin{
+    margin-bottom: 20px;
+}
+
+/* Popular tours section end */
+
+
+
+/* mobile responsive start */
 @media screen and (max-width: 600px) {
     .input_fild_banner {
         flex-direction: column;
