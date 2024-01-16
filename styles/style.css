@@ -157,6 +157,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+    gap: 20px;
 }
 .Popular_Tours_left h1{
     color: #131318;
@@ -178,14 +179,14 @@
 .for_margin{
     margin-bottom: 20px;
 }
-
 /* Popular tours section end */
 
 
 
 /* mobile responsive start */
 @media screen and (max-width: 600px) {
-    .input_fild_banner {
+    
+    .input_fild_banner,.Popular_Tours{
         flex-direction: column;
     }
     .manu_ul{
@@ -201,10 +202,14 @@
     font-size: 17px;
     width: 83%;
     }
-.input_fild_banner input {
+    .input_fild_banner input {
     font-size: 12px;
     padding: 0 10px;
     width: 85%;
     }
+    .Popular_Tours_right {
+        width: 100%;
+    }
+    .Popular_Tours_right img {width: 100%;}
 
 }
