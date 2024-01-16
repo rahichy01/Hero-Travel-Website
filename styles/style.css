@@ -194,10 +194,11 @@
 
 /* Choose Destination section start */
 
-.Choose-Destination  .Destination_h1,.Destination_p{
+.Choose-Destination .Destination_h1, .Destination_p,
+.Why_Choose_Us_Section_heading, .Why_Choose_Us_Section_p{
     text-align: center;
 }
-.Destination_p{
+.Destination_p, .Why_Choose_Us_Section_p{
     margin: 20px 0;
 }
 .Destination_loctions_container {
@@ -248,43 +249,116 @@
     font-size: 28px;
     font-weight: 800;
 }
-
 /* Choose Destination section end */
+
+
+
+/* Why Choose Us Section start*/
+.Why_Choose_Us_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 50px 0;
+}
+
+.card_1{
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card_2{
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.Why_Choose_Us_box_card{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 34px;
+}
+
+.Why_Choose_Us_box_card > h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.fa-hotel{
+    color: #dead76;
+}
+
+.fa-map-location{
+    color: #63aff2;
+}
+
+.fa-hotel, .fa-map-location, .fa-percent{
+    font-size: 4rem;
+}
+.fa-percent{
+    color: #ebbc86;
+}
+
+.best_price_guarantee_box{
+    width: 43%;
+    margin: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 34px;
+}
+.best_price_guarantee_box > h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+/* Why Choose Us Section end */
+
 
 
 /* mobile responsive start */
 @media screen and (max-width: 600px) {
     
-    .input_fild_banner,.Popular_Tours{
+    .input_fild_banner, .Popular_Tours, .Why_Choose_Us_box{
         flex-direction: column;
     }
+
     .manu_ul{
         display: none;
     }
+
    .bars{
         display: block;
    }
-   .banner h1, .Destination_h1{
+
+   .banner h1, .Destination_h1, .Why_Choose_Us_Section_heading{
     font-size: 30px;
    }
+
    .for_responsive {
     font-size: 17px;
     width: 83%;
     }
+    
     .input_fild_banner input {
     font-size: 12px;
     padding: 0 10px;
     width: 85%;
     }
+
     .Popular_Tours_right {
         width: 100%;
     }
+
     .Popular_Tours_right img {
         width: 100%;
     }
-    .Choose-Destination .Destination_p{
+
+    .Choose-Destination .Destination_p, .Why_Choose_Us_Section_p{
         font-size: 19px;
     }
+
     .Destination_loctions_container {
         grid-template-areas:
         
@@ -297,6 +371,9 @@
         "Bandarban"
         ;
         gap: 10px;
+    }
+    .best_price_guarantee_box{
+        width: 86%;
     }
 
 }
