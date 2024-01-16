@@ -352,13 +352,8 @@
 }
 /* perfect place section end */
 
+
 /* Newsletter section start */
-
-
-
-
-
-
 .Newsletter_section {
     display: flex;
     justify-content: space-between;
@@ -443,17 +438,14 @@
 .Newsletter_section_right img{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
 /* Newsletter section end */
+
+.section_devider{
+    width: 35%;
+    border: 1px solid #FF5400;
+    margin: auto;
+}
+
 
 /* mobile responsive start */
 @media screen and (max-width: 600px) {
