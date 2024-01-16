@@ -264,7 +264,7 @@
    .bars{
         display: block;
    }
-   .banner h1{
+   .banner h1, .Destination_h1{
     font-size: 30px;
    }
    .for_responsive {
@@ -279,7 +279,25 @@
     .Popular_Tours_right {
         width: 100%;
     }
-    .Popular_Tours_right img {width: 100%;}
+    .Popular_Tours_right img {
+        width: 100%;
+    }
+    .Choose-Destination .Destination_p{
+        font-size: 19px;
+    }
+    .Destination_loctions_container {
+        grid-template-areas:
+        
+        "Maldives"
+        "Indonesia"
+        "Srilanka" 
+        "North_America" 
+        "Kashmir"
+        "Bangladesh"
+        "Bandarban"
+        ;
+        gap: 10px;
+    }
 
 }
 /* mobile responsive end */
