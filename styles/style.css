@@ -24,14 +24,20 @@
     border: none;
 }
 
-/* shared style end */
-
+.shared_style_for_h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 .container {
     width: 81.25%;
     max-width: 1170px;
     margin: 50px auto;
 }
+/* shared style end */
 
+
+/* nav section start */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -88,7 +94,10 @@
 .bars{
     display: none;
 }
+/* nav section end */
 
+
+/* banner section start */
 .banner {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
@@ -149,9 +158,10 @@
 .input_fild_banner button i{
     margin-right: 10px ;
 }
+/* banner section end */
+
 
 /* Popular tours section start */
-
 .Popular_Tours{
     display: flex;
     justify-content: space-between;
@@ -181,6 +191,65 @@
 }
 /* Popular tours section end */
 
+
+/* Choose Destination section start */
+
+.Choose-Destination  .Destination_h1,.Destination_p{
+    text-align: center;
+}
+.Destination_p{
+    margin: 20px 0;
+}
+.Destination_loctions_container {
+    display: grid;
+    grid-template-areas:
+    
+    "Maldives Maldives Indonesia Indonesia"
+    "Srilanka    North_America North_America Kashmir"
+    "Bangladesh Bangladesh Bandarban Bandarban"
+    ;
+    gap: 10px;
+}
+.Maldives{
+    grid-area: Maldives;
+}
+.Indonesia{
+    grid-area: Indonesia;
+}
+.Srilanka{
+    grid-area: Srilanka;
+}
+.North_America{
+    grid-area: North_America;
+}
+.KashmirA{
+    grid-area: Kashmir;
+}
+.Bangladesh{
+    grid-area: Bangladesh;
+}
+.Bandarban{
+    grid-area: Bandarban;
+}
+
+.Destination_loctions_container div >img {
+    width: 100%;
+    height: 300px;
+}
+.Destination_loctions_container > div{
+    position: relative;
+}
+.Destination_loctions_container > div h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* Choose Destination section end */
 
 
 /* mobile responsive start */
@@ -213,3 +282,4 @@
     .Popular_Tours_right img {width: 100%;}
 
 }
+/* mobile responsive end */
