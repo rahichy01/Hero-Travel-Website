@@ -350,13 +350,115 @@
 .Perfect_Place_Section_right img{
     width: 100%;
 }
-
 /* perfect place section end */
+
+/* Newsletter section start */
+
+
+
+
+
+
+.Newsletter_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.Newsletter_section_left{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 35px;
+    width: 80%;
+}
+
+.Newsletter_section_left h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Newsletter_section_left hr{
+    margin-bottom: 18px;
+}
+.input_btn_design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.Newsletter_section_left p{
+    margin-top: 10px;
+}
+
+.Newsletter_section_left input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    border: none;
+    padding: 28px;
+    font-size: 16px;
+    padding: 15px;
+    width: 93%;
+    outline: none;
+}
+
+.Subscribe_btn{
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 8px;
+        background: #FF5400;
+        flex-shrink: 0;
+        border: none;
+        width: 100%;
+        padding: 14px 0;
+}
+.Newsletter_section_right{
+    width: 100%;
+    position: relative;
+}
+.routed_btn{
+    position: absolute;
+    bottom: 52px;
+    right: 13px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    transform: rotate(-19.628deg);
+}
+.routed_btn h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.routed_btn h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.Newsletter_section_right img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Newsletter section end */
 
 /* mobile responsive start */
 @media screen and (max-width: 600px) {
     
-    .input_fild_banner, .Popular_Tours, .Why_Choose_Us_box, .Perfect_Place_Section {
+    .input_fild_banner, .Popular_Tours, .Why_Choose_Us_box, .Perfect_Place_Section, .Newsletter_section {
         flex-direction: column;
     }
 
@@ -368,7 +470,7 @@
         display: block;
    }
 
-   .banner h1, .Destination_h1, .Why_Choose_Us_Section_heading{
+   .banner h1, .Destination_h1, .Why_Choose_Us_Section_heading, .routed_btn h1{
     font-size: 30px;
    }
 
