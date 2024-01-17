@@ -5,6 +5,8 @@
 }
 
 /* shared style start */
+
+
 .common_style_for_p {
     color: #5A5A5D;
     font-size: 16px;
@@ -38,6 +40,17 @@
     width: 35%;
     border: 1px solid #FF5400;
     margin: auto;
+}
+input:focus{
+    outline: 2px solid #FF5400;
+    color:  #FF5400;
+}
+button{
+    transition: background-color .2s;
+}
+.common_button_hover:hover{
+    background-color: #131318;
+    cursor: pointer;
 }
 /* shared style end */
 
@@ -89,15 +102,25 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: all .1s;
 }
 
 .manu_ul li .Home {
     color: #FF5400;
     font-size: 18px;
     font-weight: 700;
+    transition: all .1s;
 }
 .bars{
     display: none;
+}
+.manu_ul li .Home:hover{
+    border-bottom: 1px solid #FF5400;
+    color: #131318;
+}
+.manu_ul li a:hover{
+    border-bottom: 1px solid #131318;
+    color: #FF5400;
 }
 /* nav section end */
 
@@ -141,7 +164,6 @@
 .input_fild_banner input {
     border-radius: 8px;
     background: #FFF;
-    color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
     width: 78%;
@@ -149,7 +171,6 @@
     flex-shrink: 0;
     border: none;
     padding: 0 10px;
-    outline: none;
 }
 .banner_input_box {
     position: relative;
@@ -463,13 +484,11 @@
 .Newsletter_section_left input{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    color: rgba(19, 19, 24, 0.30);
     border: none;
     padding: 28px;
     font-size: 16px;
     padding: 15px;
     width: 93%;
-    outline: none;
 }
 
 .Subscribe_btn{
